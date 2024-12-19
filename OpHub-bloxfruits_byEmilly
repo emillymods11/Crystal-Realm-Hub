@@ -1,0 +1,11 @@
+-- Este script debe ser un LocalScript en StarterPlayerScripts
+local player = game.Players.LocalPlayer
+
+-- Función que ejecuta el kick con un mensaje personalizado
+local function kickPlayer(message)
+    -- Expulsa al jugador con el mensaje
+    player:Kick(message)
+end
+
+-- Llamada a la función con el mensaje que deseas
+kickPlayer("Fuiste baneado permanentemente por uso de scripts")
